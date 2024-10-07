@@ -61,3 +61,22 @@ print(sorted(fruits)) # change the places of fruits.
 print(fruits[0], fruits[-1]) # prints Kiwi and cherry
 print(sorted(fruits, reverse=True)) #print the same thing but sorted the fruits.
 print(fruits[0], fruits[-1]) #prints kiwi, cherry
+
+
+
+#PE6_7_A
+myList = ['apple','banana','cherry']
+print(myList[2])
+
+#B
+print(myList[-1:-4:-1])
+
+#C 
+word = 'sea'
+word[0] = 'p' + word[1 :]
+print(word)
+
+#D
+n = [1, "two", 'three', 4]
+n = [str(i) for i in n] # converts all element to str
+print(" ".join(n))
